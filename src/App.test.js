@@ -10,7 +10,7 @@ test('renders society management system', () => {
 
 test('renders sidebar navigation', () => {
   render(<App />);
-  const sidebarElement = screen.getByText(/Society Management/i);
+  const sidebarElement = screen.getByText(/ROYCE Management/i);
   expect(sidebarElement).toBeInTheDocument();
 });
 

@@ -35,7 +35,7 @@ const Sidebar = ({ collapsed, onToggle }) => {
   return (
     <div className={`sidebar ${collapsed ? 'collapsed' : ''}`}>
       <div className="sidebar-header">
-        {!collapsed && <h2>Society Management</h2>}
+        {!collapsed && <h2>ROYCE Management</h2>}
         <button className="sidebar-toggle" onClick={onToggle}>
           <ChevronLeft size={20} />
         </button>

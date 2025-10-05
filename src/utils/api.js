@@ -1,4 +1,4 @@
-// API configuration for Society Management System
+// API configuration for ROYCE Management System
 const API_BASE_URL = process.env.REACT_APP_API_URL || 'http://localhost:8080/api';
 
 // API endpoints based on Spring Boot backend
