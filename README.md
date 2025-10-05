@@ -118,3 +118,9 @@ The backend should provide REST APIs for:
 ## License
 
 This project is licensed under the MIT License.
+
+## Docker Commands : 
+
+docker build -t society-management-frontend:v1.0.0 .
+
+docker run -d -p 9985:9985 --name society-management-app society-management-frontend:v1.0.0
